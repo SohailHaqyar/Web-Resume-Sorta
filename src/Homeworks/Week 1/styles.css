@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+p {
+  font-family: Satisfy;
+  font-size: 20px;
+}
+.styles {
+  font-family: Satisfy;
+  font-size: 20px;
+  color: black;
+}
+.styles:hover {
+  text-decoration: line-through;
+  color: crimson;
+}

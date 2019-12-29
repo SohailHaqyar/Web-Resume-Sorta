@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import "materialize-css/dist/css/materialize.min.css";
+import Main from "./Homeworks/Week 1/Main";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from './Home'
+import Navbar from './Navbar'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import SecondMain from './Homeworks/Week 2/SecondMain'
+import ThirdMain from './Homeworks/Week 3/ThirdMain'
+
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div>
+        <Navbar/>
+          <Route path="/first" component={Main}></Route>
+          <Route path="/second" component={SecondMain}></Route>
+          <Route path="/third" component={ThirdMain}></Route>
+          <Route exact path="/" component={Home}></Route>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
