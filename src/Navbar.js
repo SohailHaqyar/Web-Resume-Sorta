@@ -11,7 +11,7 @@ const Navbar = props => {
             style={{
               fontFamily: "Metal Mania",
               fontSize: "50px",
-              
+              color:"crimson"
             }}>
             Web Resume
           </a>

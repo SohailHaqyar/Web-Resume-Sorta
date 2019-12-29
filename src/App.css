@@ -3,6 +3,7 @@
 }
 .nav-el {
   font-size: 24px;
+  color: crimson;
 }
 .btn {
   font-family: "Federant", cursive;
@@ -11,4 +12,18 @@
 section {
   padding-top: 4vw;
   padding-bottom: 4vw;
+}
+.card{
+
+  height: 350px;
+}
+.avatar{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-image: url("./img/67089907_638317076649661_7865913782906650624_o.jpg");
+  background-size: cover;
+}
+.who{
+  font-family:Metal Mania ;
 }

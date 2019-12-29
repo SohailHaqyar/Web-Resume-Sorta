@@ -9,7 +9,7 @@ import Navbar from './Navbar'
 import SecondMain from './Homeworks/Week 2/SecondMain'
 import ThirdMain from './Homeworks/Week 3/ThirdMain'
 
-class App extends React.Component {
+class App extends React.Component{
   render() {
     return (
       <Router>
